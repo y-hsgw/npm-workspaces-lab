@@ -4,6 +4,7 @@
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "module": "NodeNext",
     "noUncheckedIndexedAccess": true,

@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "node --watch dist/index.js"
   },
   "author": "",
   "license": "UNLICENSED",
   "description": "",
   "dependencies": {
     "@repo/typescript-config": "^1.0.0",
+    "@types/express": "^5.0.0",
     "express": "^4.21.0"
   }
 }
