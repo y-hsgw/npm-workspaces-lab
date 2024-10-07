@@ -5,7 +5,10 @@
   "main": "index.js",
   "private": true,
   "type": "module",
-  "workspaces": ["packages/*","apps/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
