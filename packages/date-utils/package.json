@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier . --write"
   },
   "author": "",
   "license": "UNLICENSED",
