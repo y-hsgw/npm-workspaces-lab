@@ -1,7 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
+import { toFormatString } from 'date-utils';
 
 export default function Home() {
+  const date = toFormatString(new Date());
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -19,7 +21,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-
+        <p>current date: {date}</p>
         <div className={styles.ctas}>
           <a
             className={styles.primary}

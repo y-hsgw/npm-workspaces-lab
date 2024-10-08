@@ -1,7 +1,7 @@
 {
-  "name": "date-utils",
+  "name": "@repo/date-utils",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "type": "module",
   "private": true,
   "scripts": {
