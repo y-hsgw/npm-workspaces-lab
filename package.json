@@ -10,7 +10,7 @@
     "apps/*"
   ],
   "scripts": {
-    "format": "npm run format -ws"
+    "format": "prettier ./*.js --write && npm run format -ws"
   },
   "keywords": [],
   "author": "",
