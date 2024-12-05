@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import { toFormatString } from 'date-utils';
+import { toFormatString } from '@repo/date-utils';
 
 export default function Home() {
   const date = toFormatString(new Date());
